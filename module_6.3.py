@@ -70,7 +70,7 @@ if __name__ == "__main__":
 
     db.speak()  # голос утконоса
     # print(Animal._DEGREE_OF_DANGER)  # степень опасности существа
-    db.attack()
+    db.attack()  # существо опасно
 
     db.move(1, 2, 3)  #
     db.get_cords()  # поскольку Z>0 изменения вносятся
